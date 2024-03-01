@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:vue/vue3-recommended",
+        "@vue/typescript/recommended",
+        "@vue/eslint-config-standard-with-typescript/allow-tsx-in-vue",
+        "@vue/eslint-config-standard-with-typescript",
+        "eslint:recommended",
+        "plugin:vue/vue3-recommended",
+        "prettier"
+    ],
+
+    "plugins": ["vue"],
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "rules": {}
+}
